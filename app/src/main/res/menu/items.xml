@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/new_game"
+        android:title="@string/add_activity"/>
+
+    <item android:id="@+id/activities"
+        android:title="@string/list_of_activities" />
+
+    <item android:id="@+id/statistics"
+        android:title="@string/statistic_of_the_month" />
+
+    <item android:id="@+id/help"
+        android:title="@string/helpText" />
+
+
+</menu>

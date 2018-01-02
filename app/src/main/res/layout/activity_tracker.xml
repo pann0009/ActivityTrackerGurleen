@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main_layout"
+    android:layout_height="match_parent"
+    tools:context="com.example.pro_24_12_17_gurleen.ActivityTracker">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" android:padding="20dp">
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/addActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_new_activity"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="113dp" />
+
+        <Button
+            android:id="@+id/listOfActivities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/list_of_activities"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="185dp" />
+
+        <Button
+            android:id="@+id/statisticsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/statistic_of_the_month"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="259dp" />
+
+        <Button
+            android:id="@+id/helpButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/helpText"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="259dp" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/textViewProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/opning_the_database"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="354dp" />
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

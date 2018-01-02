@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Pro_24_12_17_Gurleen</string>
+    <string name="title_activity_enter_new_activity">EnterNewActivityActivity</string>
+    <string name="title_activity_with_menu">WIthMenuActivity</string>
+    <string name="add_activity">Add Activity</string>
+    <string name="list_of_activities">List of activities</string>
+    <string name="statistic_of_the_month">Statistic of the month</string>
+    <string name="enter_new_activity">Enter new Activity</string>
+    <string name="opning_the_database">Opning the database</string>
+    <string name="comment">Comment</string>
+    <string name="duration">Duration</string>
+    <string name="type_of_activity">Type of activity</string>
+    <string name="add_activity_btn">Add activity</string>
+    <array name="activityTypes">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Biking</item>
+        <item>Swimming</item>
+        <item>Skating</item>
+    </array>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="helpText">Help</string>
+    <string name="helpparagraph">Author: Gurleen Pannu</string>
+    <string name="helptitle">Help</string>
+    <string name="save">Save</string>
+</resources>

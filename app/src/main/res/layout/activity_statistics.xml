@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pro_24_12_17_gurleen.StatisticsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/num_activities_prev_month"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:textColor="#4050b5"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/num_activities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:textColor="#4050b5"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/running"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#4050b5"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/walking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#4050b5"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/biking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#4050b5"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/swimming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#4050b5"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+
+            <TextView
+                android:id="@+id/skating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#4050b5"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
